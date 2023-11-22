@@ -1,0 +1,33 @@
+.todo{
+    background-color: rgb(255, 144, 54);
+    height: auto;
+}
+
+.box
+{
+    width: 75%;
+    height: 500px;
+    background-color: rgb(112, 212, 195);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    overflow: scroll;
+
+}
+i, addinput{
+    cursor: pointer;
+}
+input[type=checkbox]:checked+p.strikethrough{
+    text-decoration: line-through;
+    color: red;
+}
+.compl{
+    text-decoration: line-through;
+    color: red;
+}
+
+.inputAdd{
+    border-radius: 5px;
+    background-color: rgb(253, 252, 251);
+    width: 50vh;
+    
+}
